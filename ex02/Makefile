@@ -4,8 +4,7 @@ OBJS	=	${SRCS:%.cpp=./.build/%.o}
 
 NAME	=	identify
 
-CPPFLAGS	=	-Wall -Wextra -Werror -I. -std=c++98 -fsanitize=signed-integer-overflow -fsanitize=unsigned-integer-overflow
-
+CPPFLAGS	=	-Wall -Wextra -Werror -I. -std=c++98
 
 RM		=	rm -rf
 
